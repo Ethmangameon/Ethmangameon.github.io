@@ -23,13 +23,27 @@
 }
         
 .footer {
+  margin: 0;
+  padding: 16px 0;
+  box-sizing:  border-box;
+  list-style: none;
+  text-decoration: none;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: #db2630;
+  width: 100vw;
+  display: block;
+  overflow: hidden;
+  background-color: #4b474a;
   color: white;
   text-align: center;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 100%;
 }
         .button1 {background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;}
         .button2 {background-color: #424549;} 
@@ -38,7 +52,7 @@
 
 </style>
 <div style="text-align:center">
-<a href="https://ethmangameon.github.io/alice-app/home.html"> </ahref><button class="button button1"><img src="icon.png" /></button> </a>
+<a href="https://ethmangameon.github.io/alice-app/home.html"> </ahref><button class="button button1"><img src="icon.png" alt="Alice-Logo" width="200" height="200" /></button> </a>
 </div>
 <h1 style="color:#9c9d9c;font-family:courier;font-size:300%;text-align:center;"> Alice A.I Discord App</h1>
 <h1 style="color:#9c9d9c;font-family:courier;font-size:300%;text-align:center;"> Privacy Policy</h1>
@@ -48,12 +62,17 @@
 </div>  
                                                                                  <!--edit p-policy here V-->
 <p style="color:#9c9d9c;font-family:courier;font-size:300%;text-align:center;">(Put privacy policy here!)</a></p>
-<div class="footer-container">
-    <div class="footer">
-        <div class="footer-heading footer-1">
+</div>  
+<div class="footer">
+    <div class="inner_footer">
+        <div class="logo_container">
+        <img src="icon.png" alt="Alice-Logo" width="64" height="64">
+        </div>
+            <h1 style="color:#9c9d9c;font-size:100%;">Alice A.I</h1> 
             <h2 style="color:#9c9d9c;font-size:100%;">About us</h2>  
             <a href="https://ethmangameon.github.io/alice-app/tos.html" style="color:#9c9d9c;font-size:75%">Terms of service</a>
             <a href="https://ethmangameon.github.io/alice-app/privacy-policy.html" style="color:#9c9d9c;font-size:75%">Privacy policy</a>
-        </div>
+    </div>
+</div>
 </body>
 </html>

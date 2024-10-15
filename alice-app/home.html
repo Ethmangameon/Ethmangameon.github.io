@@ -36,6 +36,19 @@ clear: both; background-image:linear-gradient(360deg, rgb(8.627% 6.275% 7.059%) 
   border-radius: 69420px;
 }
 
+.buttonsmall {
+  border: none;
+  color: #9c9d9c;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 69420px;
+}
 
 .footer {
   color: #4b474a;
@@ -56,45 +69,106 @@ clear: both; background-image:linear-gradient(360deg, rgb(8.627% 6.275% 7.059%) 
     text-align: center;
 }
 
+.notice {
+  display: none;
+  visibility: hidden;
+}
+@media screen and (max-width:1520px), screen and (max-height:750px) {
+    .examples { display: none!important; }
+}
+
+@media screen and (max-width:800px), screen and (max-height:650px) {
+    .wrapper { display: none !important; }
+    .notice  { display: block; visibility: visible; }
+}
+
 
         .button1 {background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;}
         .button2 {background-color: #424549;} 
         .button2:hover {background-color: #7289da;color: #424549;}
       
         </style>
-<div style="text-align:center;overflow-x: hidden;">
-<a href="https://ethmangameon.github.io/alice-app/home.html"> </ahref><button class="button button1"><img src="Images/icon.png" alt="Alice-Logo" width="200" height="200" /></button></a>
-</div>
-<h1 style="color:#9c9d9c;font-family:courier;font-size:300%;text-align:center;overflow-x: hidden;"> Alice A.I Discord App</h1>
-<div style="text-align:center;overflow-x: hidden;">  
-    <a href="https://discord.gg/RwZd3T8vde"> </ahref><button class="button button2">Support server</button></a>
-<a href="https://discord.com/oauth2/authorize?client_id=1292925303211163738"> </ahref><button class="button button2">Add Discord bot</button></a>
-</div>
-<div class="container">
-    <p style="text-align:center;color:#9c9d9c;overflow-x: hidden;">Alice is a AI Discord chat-bot and image tool.
-    <br> Alice can do many things such as a text to image interaction, image to image function, it can do upscaling.
-    <br> And it includes many more features that it brings with its commands and interactions. 
-    <br> It has an LLM chat function, there are many ways to interact with the app.
-    <br> You may direct message the bot, use /respond and or /describe 
-    <br> Finally you can even @mention in a channel server channel given that it is permitted 
-    <br> (You may add permitted channels with /addchannel and the bot must be in the server to respond to pings) 
-    </p>
-   </div>
 
-        <div class="footer">
-            <div class="inner_footer">
-                <div class="logo_container">
-                <a href="https://ethmangameon.github.io/alice-app/home.html"> <button class="button button1"> </button><img src="Images/icon2.png" alt="Alice-Logo" width="41" height="52"/></button></a>
-                </div>
-                    <h1 style="color:#9c9d9c;font-size:100%;overflow-x: hidden;">Alice A.I</h1> 
-                    <a href="https://ethmangameon.github.io/alice-app/credits.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Credits</a>
-                    <br><a href="https://ethmangameon.github.io/alice-app/tos.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Terms of service</a>
-                    <br><a href="https://ethmangameon.github.io/alice-app/privacy-policy.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Privacy policy</a>
-                    <br><a href="https://github.com/Ethmangameon/Ethmangameon.github.io" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Website Repo</a>
-                    <br><a href="https://github.com/Ethmangameon/alice-bot" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Discrod Bot Repo</a>
-                    <br><a href="https://top.gg/bot/1292925303211163738" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Top.gg bot site</a>
-                    <br><a href="https://top.gg/bot/1292925303211163738" style="text-align:center;"><img src="https://top.gg/api/widget/upvotes/1292925303211163738.svg"></a>
-            </div>
+<div class="wrapper">
+    <div class="examples">
+        <!--PUT EXAMPLE IMAGES HERE IN THIS DIV-->
+       
+    </div>
+    <!--DESKTOP RES STUFF-->
+   <div style="text-align:center;overflow-x: hidden;">
+        <a href="https://ethmangameon.github.io/alice-app/home.html"> </ahref><button class="button button1"><img src="Images/icon.png" alt="Alice-Logo" width="200" height="200" /></button></a>
         </div>
+        <h1 style="color:#9c9d9c;font-family:courier;font-size:300%;text-align:center;overflow-x: hidden;"> Alice A.I Discord App</h1>
+        <div style="text-align:center;overflow-x: hidden;">  
+            <a href="https://discord.gg/RwZd3T8vde"> </ahref><button class="button button2">Support server</button></a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1292925303211163738"> </ahref><button class="button button2">Add Discord bot</button></a>
+        </div>
+        <div class="container">
+            <p style="text-align:center;color:#9c9d9c;overflow-x: hidden;">Alice is a AI Discord chat-bot and image tool.
+            <br> Alice can do many things such as a text to image interaction, image to image function, it can do upscaling.
+            <br> And it includes many more features that it brings with its commands and interactions. 
+            <br> It has an LLM chat function, there are many ways to interact with the app.
+            <br> You may direct message the bot, use /respond and or /describe 
+            <br> Finally you can even @mention in a channel server channel given that it is permitted 
+            <br> (You may add permitted channels with /addchannel and the bot must be in the server to respond to pings) 
+            </p>
+           </div>
+        
+                <div class="footer">
+                    <div class="inner_footer">
+                        <div class="logo_container">
+                        <a href="https://ethmangameon.github.io/alice-app/home.html"> <button class="button button1"> </button><img src="Images/icon2.png" alt="Alice-Logo" width="41" height="52"/></button></a>
+                        </div>
+                            <h1 style="color:#9c9d9c;font-size:100%;overflow-x: hidden;">Alice A.I</h1> 
+                            <a href="https://ethmangameon.github.io/alice-app/credits.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Credits</a>
+                            <br><a href="https://ethmangameon.github.io/alice-app/tos.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Terms of service</a>
+                            <br><a href="https://ethmangameon.github.io/alice-app/privacy-policy.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Privacy policy</a>
+                            <br><a href="https://github.com/Ethmangameon/Ethmangameon.github.io" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Website Repo</a>
+                            <br><a href="https://github.com/Ethmangameon/alice-bot" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Discrod Bot Repo</a>
+                            <br><a href="https://top.gg/bot/1292925303211163738" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Top.gg bot site</a>
+                    </div>
+                </div>
+    </div>
+  <div class="notice">
+    <!--PHONE RES STUFF-->
+    <div style="text-align:center;overflow-x: hidden;">
+        <a href="https://ethmangameon.github.io/alice-app/home.html"> </ahref><button class="buttonsmall button1"><img src="Images/icon.png" alt="Alice-Logo" width="100" height="100" /></button></a>
+        </div>
+        <h1 style="color:#9c9d9c;font-family:courier;font-size:150%;text-align:center;overflow-x: hidden;"> Alice A.I Discord App</h1>
+        <div style="text-align:center;overflow-x: hidden;">  
+            <a href="https://discord.gg/RwZd3T8vde"> </ahref><button class="buttonsmall button2">Support server</button></a>
+        <a href="https://discord.com/oauth2/authorize?client_id=1292925303211163738"> </ahref><button class="buttonsmall button2">Add Discord bot</button></a>
+        </div>
+        <div class="container">
+            <p style="text-align:center;color:#9c9d9c;overflow-x: hidden;">Alice is a AI Discord chat-bot and image tool.
+            <br> Alice can do many things such as a text to image interaction,
+            <br> image to image function, it can do upscaling.
+            <br> And it includes many more featuers with its interactions. 
+            <br> It has an LLM chat function.
+            <br> There are many ways to interact with the app.
+            <br> You may direct message the bot.
+            <br> You can also use /respond and or /describe 
+            <br> Finally you can even @mention in a channel server channel,
+            <br> given that it is permitted 
+            <br> <p style="font-size:82%;text-align:center;color:#9c9d9c;overflow-x: hidden;">(You may add permitted channels with /addchannel)</p>
+            </p>
+           </div>
+        
+                <div class="footer">
+                    <div class="inner_footer">
+                        <div class="logo_container">
+                        <a href="https://ethmangameon.github.io/alice-app/home.html"> <button class="button button1"> </button><img src="Images/icon2.png" alt="Alice-Logo" width="33" height="42"/></button></a>
+                        </div>
+                            <h1 style="color:#9c9d9c;font-size:80%;overflow-x: hidden;">Alice A.I</h1> 
+                            <a href="https://ethmangameon.github.io/alice-app/credits.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Credits</a>
+                            <br><a href="https://ethmangameon.github.io/alice-app/tos.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Terms of service</a>
+                            <br><a href="https://ethmangameon.github.io/alice-app/privacy-policy.html" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Privacy policy</a>
+                            <br><a href="https://github.com/Ethmangameon/Ethmangameon.github.io" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Website Repo</a>
+                            <br><a href="https://github.com/Ethmangameon/alice-bot" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Discrod Bot Repo</a>
+                            <br><a href="https://top.gg/bot/1292925303211163738" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Top.gg bot site</a>
+                    </div>
+                </div>
+  </div>  
+
 </body>
 </html>

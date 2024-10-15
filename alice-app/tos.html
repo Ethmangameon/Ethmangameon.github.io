@@ -33,6 +33,20 @@
   border-radius: 69420px;
 }
 
+.buttonsmall {
+  border: none;
+  color: #9c9d9c;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 69420px;
+}
+
 .textarea{
   width:50%;
   overflow:hidden;
@@ -62,6 +76,17 @@
     height: 100;
     text-align: center;
 }
+
+.notice {
+  display: none;
+  visibility: hidden;
+}
+
+@media screen and (max-width:800px), screen and (max-height:650px) {
+    .wrapper { display: none !important; }
+    .notice  { display: block; visibility: visible; }
+}
+
         .button1 {background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;}
         .button2 {background-color: #424549;} 
         .button2:hover {background-color:#7289da;color: #424549;}
@@ -102,7 +127,6 @@
             <br><a href="https://github.com/Ethmangameon/Ethmangameon.github.io" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Website Repo</a>
             <br><a href="https://github.com/Ethmangameon/alice-bot" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Discrod Bot Repo</a>
             <br><a href="https://top.gg/bot/1292925303211163738" style="color:#9c9d9c;font-size:75%;overflow-x: hidden;">Top.gg bot site</a>
-            <br><a href="https://top.gg/bot/1292925303211163738" style="text-align:center;"><img src="https://top.gg/api/widget/upvotes/1292925303211163738.svg"></a>
         </div>
 </div>
 </body>

@@ -1,0 +1,117 @@
+
+.background-grad {
+background-repeat: no-repeat; 
+overflow-x: hidden;
+background-size: cover;
+background-attachment: fixed;
+clear: both; 
+background-image:
+linear-gradient(360deg, 
+rgb(8.627% 6.275% 7.059%) 0%,
+ rgb(11.25% 6.765% 7.794%) 6.25%,
+  rgb(13.873% 7.255% 8.529%) 12.5%,
+   rgb(16.495% 7.745% 9.265%) 18.75%,
+    rgb(19.118% 8.235% 10%) 25%,
+     rgb(21.74% 8.725% 10.735%) 31.25%,
+      rgb(24.363% 9.216% 11.471%) 37.5%,
+       rgb(26.985% 9.706% 12.206%) 43.75%,
+        rgb(29.608% 10.196% 12.941%) 50%,
+         rgb(32.23% 10.686% 13.676%) 56.25%,
+          rgb(34.853% 11.176% 14.412%) 62.5%,
+           rgb(37.475% 11.667% 15.147%) 68.75%,
+            rgb(40.098% 12.157% 15.882%) 75%,
+             rgb(42.721% 12.647% 16.618%) 81.25%,
+              rgb(45.343% 13.137% 17.353%) 87.5%,
+               rgb(47.966% 13.627% 18.088%) 93.75%,
+                rgb(50.588% 14.118% 18.824%) 100%)
+            }
+
+.button {
+    border: none;
+    color: #9c9d9c;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 69420px;
+}
+
+.footer {
+    color: #4b474a;
+    height:10vh;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.textarea{
+    width:50%;
+    overflow:hidden;
+    height:50vh;
+    max-height:50vh;
+    border:5px solid #ccc;
+    overflow-y: auto;
+    position: relative;
+     bottom: 3vh;
+     left: 8vw;
+     width: 85%;
+  }
+
+.nav-item{
+color:#9c9d9c;
+font-size:75%;
+overflow-x: hidden;
+}
+
+.nav {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+
+.nav-link {
+    display:block;
+    padding-left:0.5rem !important;
+    padding:0.5rem 0.9rem
+  }
+
+.nav-font {
+    color:#9c9d9c !important;
+    font-family:courier;
+  
+}
+
+.justify-content-center {
+    padding-top:1rem !important;
+    margin-bottom:1.5rem !important;
+    padding-bottom:1rem !important;
+    -webkit-box-pack:center !important;
+    -ms-flex-pack:center !important;
+    justify-content:center !important  
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home-button {background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;}
+.footer-button {background-color: Transparent;border: none;}
+.button-discord {background-color: #424549;} 
+.button-discord:hover {background-color: #7289da;color: #424549;}
+.centering {text-align:center;overflow-x: hidden;}
+.big-bold-font {color:#9c9d9c;font-family:courier;font-size:300%;}

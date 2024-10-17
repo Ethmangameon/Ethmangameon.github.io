@@ -40,6 +40,20 @@ rgb(8.627% 6.275% 7.059%) 0%,
     border-radius: 69420px;
 }
 
+.buttonsmall {
+    border: none;
+    color: #9c9d9c;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 69420px;
+  }
+
 .footer {
     color: #4b474a;
     height:10vh;
@@ -93,6 +107,12 @@ overflow-x: hidden;
   
 }
 
+.nav-fontsmall {
+    color:#9c9d9c !important;
+    font-family:courier;
+    font-size:50%;
+}
+
 .justify-content-center {
     padding-top:1rem !important;
     margin-bottom:1.5rem !important;
@@ -109,9 +129,56 @@ overflow-x: hidden;
     justify-content: space-between;
 }
 
+.textarea-example-images{
+    width:23vw;
+    overflow:hidden;
+    height: 90vh;
+    max-width: 350px;
+    max-height: 900px;
+    background-color: #313338;
+    border:5px solid #313338;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+     top: 3vh;
+     left: 2vw;
+     border-radius: 50px;
+  }
+
+.textarea-example-llm{
+    width:26vw;
+    overflow:hidden;
+    height: 90vh;
+    max-width: 500px;
+    max-height: 900px;
+    background-color: #313338;
+    border:5px solid #313338;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+     top: 3vh;
+     right: 2vw;
+     border-radius: 50px;
+  }
+
+.notice {
+    display: none;
+    visibility: hidden;
+  }
+  
+@media screen and (max-width:800px), screen and (max-height:650px) {
+    .wrapper { display: none !important; }
+    .notice  {visibility: visible; }
+}
+
+@media screen and (max-width:1520px), screen and (max-height:750px) {
+    .examples { display: none!important; }
+}
+
 .home-button {background-color: Transparent;background-repeat:no-repeat;border: none;cursor:pointer;overflow: hidden;}
 .footer-button {background-color: Transparent;border: none;}
 .button-discord {background-color: #424549;} 
 .button-discord:hover {background-color: #7289da;color: #424549;}
 .centering {text-align:center;overflow-x: hidden;}
 .big-bold-font {color:#9c9d9c;font-family:courier;font-size:300%;}
+.small-bold-font {color:#9c9d9c;font-family:courier;font-size:150%;}

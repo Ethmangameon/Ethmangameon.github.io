@@ -5,9 +5,9 @@ overflow-x: hidden;
 background-size: cover;
 background-attachment: fixed;
 clear: both; 
-    background: linear-gradient(116deg,#161012,#2a1418,#2a1418,#37161b,#3e181d,#45191f,#4c1a21,#521b23,#591c25,#601e27,#661f28,#6d202a,#74212c,#7a232e,#812430,#881f2d,#b72639,#b93245,#ad3546,#981f31,#981529,#7b0f1f,#771424,#6d1929,#812430,#7a232e,#74212c,#6d202a,#661f28,#601e27,#591c25,#521b23,#4c1a21,#45191f,#3e181d,#37161b,#31151a,#2a1418,#231316,#1d1114,#161012);
-    background-size: 2460% 2460%;
-    animation: gradient-animation 328s ease infinite;
+background: linear-gradient(116deg,#161012,#2a1418,#2a1418,#37161b,#3e181d,#45191f,#4c1a21,#521b23,#591c25,#601e27,#661f28,#6d202a,#74212c,#7a232e,#812430,#881f2d,#b72639,#b93245,#ad3546,#981f31,#981529,#7b0f1f,#771424,#6d1929,#812430,#7a232e,#74212c,#6d202a,#661f28,#601e27,#591c25,#521b23,#4c1a21,#45191f,#3e181d,#37161b,#31151a,#2a1418,#231316,#1d1114,#161012);
+background-size: 2460% 2460%;
+animation: gradient-animation 328s ease infinite;
   }
   
   @keyframes gradient-animation {
@@ -126,11 +126,11 @@ overflow-x: hidden;
 }
 
 .textarea-example-images{
-    width:23vw;
+    width:28vw;
     overflow:hidden;
     height: 90vh;
-    max-width: 350px;
-    max-height: 900px;
+    max-width: 550px;
+    max-height: 1200px;
     background-color: #313338;
     border:5px solid #313338;
     overflow-x: hidden;
@@ -142,11 +142,11 @@ overflow-x: hidden;
   }
 
 .textarea-example-llm{
-    width:26vw;
+    width:28vw;
     overflow:hidden;
     height: 90vh;
-    max-width: 500px;
-    max-height: 900px;
+    max-width: 550px;
+    max-height: 1200px;
     background-color: #313338;
     border:5px solid #313338;
     overflow-x: hidden;
@@ -167,7 +167,7 @@ overflow-x: hidden;
     .notice  {visibility: visible; }
 }
 
-@media screen and (max-width:1520px), screen and (max-height:750px) {
+@media screen and (max-width:1600px), screen and (max-height:750px) {
     .examples { display: none!important; }
 }
 

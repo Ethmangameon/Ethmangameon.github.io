@@ -15,11 +15,11 @@
 .button-alice {
     background-color: #313338; color:#ffffff;
     border-radius: 18px;
+    transition: background-color ease-in 0.5s;
 } 
 
 .button-alice:hover {
     background-color: #7289da;
-    transition: background-color ease-in 0.5s;
 }
 
 .span-thing {
@@ -31,13 +31,22 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animatedTextGradient 5s linear infinite;
-  }
+}
   
 @keyframes animatedTextGradient {
     to {
       background-position: 200% center;
     }
 }
+
+details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  
+  @keyframes sweep {
+    0%    {opacity: 0; margin-left: -10px}
+    100%  {opacity: 1; margin-left: 0px}
+  }
 
 .textarea{
     border:transparent;
@@ -54,11 +63,13 @@
     width: 350px;
     display: inline-block;
     border-radius: 18px;
+    transition: background-color ease-in 0.5s;
+    transition-delay:60s
 }
+
 
 .textarea-alice:hover {
     background-color: #7289da;
-    transition: background-color ease-in 0.5s;
 }
 
 .gradient-background {
@@ -198,3 +209,9 @@ section {
     100% { opacity: 1; }
 }
   
+
+.d1{transition-delay:100ms}
+
+.d2{transition-delay:5s}
+
+.d3{transition-delay:5.5s}

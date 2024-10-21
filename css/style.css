@@ -25,12 +25,12 @@
 span {
     background: radial-gradient(
       circle at 100%,
-      #db2833,#bc445c,#565454,#656163,#757474,#746c6f,#7b7b7c,#bcb4b4,#9c9c9c,#ffffff,#9c9c9c,#bcb4b4,#7b7b7c,#746c6f,#757474,#656163,#565454,#bc445c,#db2833);
+      #db2833,#bc445c,#db2833,#bc445c,#db2833,#bc445c,#db2833,#bc445c,#db2833,#bc445c,#db2833,#bc445c,#db2833,#bc445c,#565454,#656163,#757474,#746c6f,#7b7b7c,#bcb4b4,#9c9c9c,#ffffff,#9c9c9c,#bcb4b4,#7b7b7c,#746c6f,#757474,#656163,#565454,#bc445c,#db2833);
     font-weight: 600;
     background-size: 200% auto;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animatedTextGradient 0.5s linear infinite;
+    animation: animatedTextGradient 5s linear infinite;
   }
   
 @keyframes animatedTextGradient {

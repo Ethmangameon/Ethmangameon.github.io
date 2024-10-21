@@ -17,15 +17,19 @@
 } 
 
 .button-discord:hover {
-    background-color: #7289da;color: #313338;
+    background-color: #881f2d;color: #313338;
 }
 
 .textarea{
     border:transparent;
-    width: 65%;
     position: relative;
     left: 12vw;
-  }
+}
+
+.font-color{
+    color: #ffffff;
+    font-family:courier;
+}
 
 .gradient-background {
     background-repeat: no-repeat; 
@@ -33,11 +37,77 @@
     background-size: cover;
     background-attachment: fixed;
     clear: both; 
-    background: linear-gradient(76deg,#000000,#000000,#fec711,#000000,#ac1027,#000000,#841b55,#000000,#0286cb,#000000,#000000);
+    background: linear-gradient(76deg,#000000,#000000,#414360,#000000,#6591b9,#000000,#44464c,#000000,#7fbcdc,#000000,#676e9b,#000000,#000000);
     background-size: 2460% 2460%;
     animation: gradient-animation 320s ease infinite;
-  }
-  
+}
+
+.footer {
+    color: #4b474a;
+    height:10vh;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner_footer{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-item{
+    color:#9c9d9c;
+    font-size:75%;
+    overflow-x: hidden;
+}
+    
+.nav {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    padding-left:0;
+    margin-bottom:0;
+    list-style:none
+}
+    
+.nav-link {
+    display:block;
+    padding-left:0.5rem !important;
+    padding:0.5rem 0.9rem
+}
+    
+.nav-font {
+    color:#9c9d9c !important;
+    font-family:courier;  
+}
+    
+.nav-fontsmall {
+    color:#9c9d9c !important;
+    font-family:courier;
+    font-size:50%;
+}
+
+.justify-content-center {
+    padding-top:1rem !important;
+    margin-bottom:1.5rem !important;
+    padding-bottom:1rem !important;
+    -webkit-box-pack:center !important;
+    -ms-flex-pack:center !important;
+    justify-content:center !important  
+}
+
+.footer-button {
+    background-color: Transparent;
+    border: none;
+}
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -48,4 +118,4 @@
     100% {
       background-position: 0% 50%;
     }
-  }
+}

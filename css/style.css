@@ -13,7 +13,7 @@
 }
           
 .button-alice {
-    background-color: #313338;
+    background-color: #313338; color:#ffffff;
 } 
 
 .button-alice:hover {
@@ -67,7 +67,6 @@
 }
 
 .nav-item{
-    color:#9c9d9c;
     font-size:75%;
     overflow-x: hidden;
 }
@@ -90,12 +89,10 @@
 }
     
 .nav-font {
-    color:#9c9d9c !important;
     font-family:courier;  
 }
     
 .nav-fontsmall {
-    color:#9c9d9c !important;
     font-family:courier;
     font-size:50%;
 }

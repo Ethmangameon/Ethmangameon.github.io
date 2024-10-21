@@ -14,31 +14,30 @@
           
 .button-alice {
     background-color: #313338; color:#ffffff;
+    border-radius: 18px;
 } 
 
 .button-alice:hover {
     background-color: #7289da;
-    animation: color-animation 1s ease infinite;
+    transition: background-color ease-in 0.5s;
 }
 
 span {
     background: radial-gradient(
       circle at 100%,
-      #161012,#2a1418,#2a1418,#37161b,#3e181d,#45191f,#4c1a21,#521b23,#591c25,#601e27,#661f28,#6d202a,#74212c,#7a232e,#812430,#881f2d,#b72639,#b93245,#ad3546,#981f31,#981529,#7b0f1f,#771424,#6d1929,#812430,#7a232e,#74212c,#6d202a,#661f28,#601e27,#591c25,#521b23,#4c1a21,#45191f,#3e181d,#37161b,#31151a,#2a1418,#231316,#1d1114,#161012
-    );
+      #db2833,#bc445c,#565454,#656163,#757474,#746c6f,#7b7b7c,#bcb4b4,#9c9c9c,#ffffff,#9c9c9c,#bcb4b4,#7b7b7c,#746c6f,#757474,#656163,#565454,#bc445c,#db2833);
     font-weight: 600;
     background-size: 200% auto;
-    color: #000;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: animatedTextGradient 1.5s linear infinite;
+    animation: animatedTextGradient 0.5s linear infinite;
   }
   
-  @keyframes animatedTextGradient {
+@keyframes animatedTextGradient {
     to {
       background-position: 200% center;
     }
-  }
+}
 
 .textarea{
     border:transparent;
@@ -52,9 +51,14 @@ span {
 
 .textarea-alice{
     background-color: #313338;
-    border:5px solid #313338;
     width: 350px;
     display: inline-block;
+    border-radius: 18px;
+}
+
+.textarea-alice:hover {
+    background-color: #7289da;
+    transition: background-color ease-in 0.5s;
 }
 
 .gradient-background {

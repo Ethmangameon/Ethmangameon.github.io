@@ -122,3 +122,55 @@
       background-position: 0% 50%;
     }
 }
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.hidden-left {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+
+.hidden-right {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.hidden-fade {
+    opacity: 0;
+    filter: blur(5px);
+    animation: fadeIn 5s;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .hidden-left {
+        transition: none;
+    };
+    .hidden-right {
+        transition: none;
+    };
+    .hidden-fade {
+        transition: none;
+    };
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+  

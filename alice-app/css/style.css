@@ -62,16 +62,9 @@ animation: gradient-animation 328s ease infinite;
 }
 
 .textarea{
-    width:50%;
-    overflow:hidden;
-    height:50vh;
-    max-height:50vh;
     border:5px solid #ccc;
     overflow-y: auto;
-    position: relative;
-     bottom: 3vh;
-     left: 8vw;
-     width: 85%;
+    display: inline-block;
   }
 
 .nav-item{

@@ -9,26 +9,32 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 69420px;
+    border-radius: 5px;
 }
           
-.button-discord {
+.button-alice {
     background-color: #313338;
 } 
 
-.button-discord:hover {
+.button-alice:hover {
     background-color: #881f2d;color: #313338;
 }
 
 .textarea{
     border:transparent;
-    position: relative;
-    left: 12vw;
+    display: inline-block;
 }
 
 .font-color{
     color: #ffffff;
     font-family:courier;
+}
+
+.textarea-alice{
+    background-color: #313338;
+    border:5px solid #313338;
+    width: 350px;
+    display: inline-block;
 }
 
 .gradient-background {

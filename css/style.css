@@ -17,8 +17,28 @@
 } 
 
 .button-alice:hover {
-    background-color: #881f2d;color: #313338;
+    background-color: #7289da;
+    animation: color-animation 1s ease infinite;
 }
+
+span {
+    background: radial-gradient(
+      circle at 100%,
+      #161012,#2a1418,#2a1418,#37161b,#3e181d,#45191f,#4c1a21,#521b23,#591c25,#601e27,#661f28,#6d202a,#74212c,#7a232e,#812430,#881f2d,#b72639,#b93245,#ad3546,#981f31,#981529,#7b0f1f,#771424,#6d1929,#812430,#7a232e,#74212c,#6d202a,#661f28,#601e27,#591c25,#521b23,#4c1a21,#45191f,#3e181d,#37161b,#31151a,#2a1418,#231316,#1d1114,#161012
+    );
+    font-weight: 600;
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animatedTextGradient 1.5s linear infinite;
+  }
+  
+  @keyframes animatedTextGradient {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 .textarea{
     border:transparent;
@@ -46,6 +66,18 @@
     background: linear-gradient(76deg,#000000,#000000,#414360,#000000,#6591b9,#000000,#44464c,#000000,#7fbcdc,#000000,#676e9b,#000000,#000000);
     background-size: 2460% 2460%;
     animation: gradient-animation 320s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
 }
 
 .footer {
@@ -109,18 +141,6 @@
 .footer-button {
     background-color: Transparent;
     border: none;
-}
-
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
 }
 
 section {
